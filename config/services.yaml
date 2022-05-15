@@ -1,0 +1,9 @@
+parameters:
+# nothing to declare
+services:
+  H2Entwicklung\Signature\CheckSignature:
+    autowire: true
+
+  app.signchecker.check:
+    alias: H2Entwicklung\Signature\CheckSignature
+    public: true

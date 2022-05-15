@@ -1,0 +1,26 @@
+{
+  "name": "h2entwicklung/sign-checker",
+  "description": "Verifies",
+  "type": "symfony-bundle",
+  "require": {
+    "php":  "^7.4 || ^8.0|| ^8.1",
+    "ext-openssl": "*",
+    "ext-json": "*",
+    "symfony/config": "^4.4 || ^5.3 || ^6.0",
+    "symfony/dependency-injection": "^4.4 || ^5.3 || ^6.0",
+    "symfony/http-kernel": "^4.4 || ^5.3 || ^6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "H2Entwicklung\\Signature\\": "src/"
+    }
+  },
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "H2 Entwicklung",
+      "email": "entwicklung@h2-invent.com"
+    }
+  ],
+  "minimum-stability": "dev"
+}
